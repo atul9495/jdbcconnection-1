@@ -63,16 +63,7 @@
 			<artifactId>spring-boot-starter-test</artifactId>
 			<scope>test</scope>
 		</dependency>
- <dependency>
-  <groupId>com.artcode</groupId>
-  <artifactId>tix-common-jpa-models</artifactId>
-  <version>1.0.0</version>
-</dependency>
- <dependency>
-  <groupId>com.artcode</groupId>
-  <artifactId>com-artcode-atul</artifactId>
-  <version>1.0.1</version>
-</dependency> 
+
 	</dependencies>
 	
  <distributionManagement>

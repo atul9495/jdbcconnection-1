@@ -34,7 +34,7 @@ public class Tick implements Serializable{
     private boolean tradable;
     
     @Column(name = "token")
-    private Long instrumentToken;
+    private double  instrumentToken;
     
     @Column(name = "lastTradedPrice")
     private double lastTradedPrice;
@@ -61,7 +61,7 @@ public class Tick implements Serializable{
     private double averageTradePrice;
     
     @Column(name = "volumeTradedToday")
-    private Long volumeTradedToday;
+    private double  volumeTradedToday;
     
     @Column(name = "totalBuyQuantity")
     private double totalBuyQuantity;
@@ -201,11 +201,11 @@ public class Tick implements Serializable{
         this.tradable = tradable;
     }
 
-    public long getInstrumentToken() {
+    public double  getInstrumentToken() {
         return instrumentToken;
     }
 
-    public void setInstrumentToken(long token) {
+    public void setInstrumentToken(double  token) {
         this.instrumentToken = token;
     }
 
@@ -273,11 +273,11 @@ public class Tick implements Serializable{
         this.averageTradePrice = averageTradePrice;
     }
 
-    public long getVolumeTradedToday() {
+    public double  getVolumeTradedToday() {
         return volumeTradedToday;
     }
 
-    public void setVolumeTradedToday(long volumeTradedToday) {
+    public void setVolumeTradedToday(double  volumeTradedToday) {
         this.volumeTradedToday = volumeTradedToday;
     }
 
